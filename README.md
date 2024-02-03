@@ -1,4 +1,4 @@
-# Mortgage Eligibility Analyzer
+# Mortgage Eligibility Analyzer.
 
 This is a simple Python script that analyzes data to determine whether a mortgage for the purchase of a house is eligible based on the house value, buyer's salary, and financing period.
 
