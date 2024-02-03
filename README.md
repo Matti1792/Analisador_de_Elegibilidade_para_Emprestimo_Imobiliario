@@ -7,4 +7,4 @@ This is a simple Python script that analyzes data to determine whether a mortgag
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/Matti1792/Analisador_de_Elegibilidade_para_Emprestimo_Imobiliario
+   git clone https://github.com/Matti1792/Mortgage_Eligibility_Analyzer
