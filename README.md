@@ -8,3 +8,6 @@ This is a simple Python script that analyzes data to determine whether a mortgag
 
    ```bash
    git clone https://github.com/Matti1792/Mortgage_Eligibility_Analyzer
+
+# Requirements
+Make sure you have Python installed on your machine.
