@@ -7,19 +7,19 @@ c = {'limpar': '\033[m',
 
 
 print('-=' * 20)
-print('         {}Analisador de dados{}    '.format(c['vermelho'], c['limpar']))
+print('         {}Data analyzer{}    '.format(c['vermelho'], c['limpar']))
 print('-=' * 20)
 
 
-v = float(input("Valor da Casa: R$ "))
+v = float(input("House value: $ "))
 
-Salario = float(input("Salario do comprador: R$ "))
+Salario = float(input("Buyer's salary: $ "))
 
-q = int(input("Quantos anos de financiamento? "))
+q = int(input("How many years of financing? "))
 
 p = v / (q * 12)
 
-print("Para pagar uma casa de {}R${:.2f}{} em {}{}{} anos a prestação será de {}R${:.2f}{}.".format(c['verde'], v, c['limpar'], c['verde'], q, c['limpar'], c['verde'], p, c['limpar'], c['verde']))
+print("To pay for a house of {}R${:.2f}{} in {}{}{} years, the installment will be {}R${:.2f}{}.".format(c['verde'], v, c['limpar'], c['verde'], q, c['limpar'], c['verde'], p, c['limpar'], c['verde']))
 
 time.sleep(1.5)
 
@@ -27,7 +27,7 @@ print('-=' * 20)\
 
 
 if Salario <= p:
-    print("Emprestimo {}NEGADO!{}".format(c['vermelho'], c['limpar']))
+    print("Emprestimo {}DENIED!{}".format(c['vermelho'], c['limpar']))
 
 else:
-    print("Emprestimo {}CONCEDIDO!{}".format(c['verde'], c['limpar']))
+    print("Emprestimo {}GRANTED!{}".format(c['verde'], c['limpar']))
