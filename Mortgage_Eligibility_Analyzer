@@ -27,7 +27,7 @@ print('-=' * 20)\
 
 
 if Salario <= p:
-    print("Emprestimo {}DENIED!{}".format(c['vermelho'], c['limpar']))
+    print("Loan {}DENIED!{}".format(c['vermelho'], c['limpar']))
 
 else:
-    print("Emprestimo {}GRANTED!{}".format(c['verde'], c['limpar']))
+    print("Loan {}GRANTED!{}".format(c['verde'], c['limpar']))
